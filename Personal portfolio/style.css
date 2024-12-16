@@ -1,0 +1,141 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: url('images/background1.jpg') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the image covers the entire page */
+}
+
+/* Header Section */
+header {
+    background: rgba(0, 0, 0, 0.7); /* Optional: Dark overlay on top of the background for better text visibility */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* About Section */
+#about {
+    background: rgba(255, 255, 255, 0.8); /* Optional: Light overlay for better text readability */
+    text-align: center;
+    padding: 4rem 0;
+}
+
+#about h1 {
+    font-size: 2.5rem;
+}
+
+/* Skills Section */
+#skills {
+    background: #fff;
+}
+
+#skills h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 0.5rem;
+    background: #4caf50;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+}
+
+/* Projects Section */
+#projects {
+    background: #f4f4f4;
+}
+
+#projects h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+.project-card h3 {
+    margin: 0.5rem 0;
+}
+
+.project-card a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
+#contact {
+    background: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#contact h2 {
+    margin-bottom: 1rem;
+}
+
+#contact a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
